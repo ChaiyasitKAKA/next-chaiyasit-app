@@ -29,29 +29,28 @@ const navLinks: NavLink[] = [
 
 
 const HomeContent: React.FC = () => (
-    <section id="home">
-        <p className="text-lg font-medium mb-4">
-            Let's Work <span className="text-primary-orange font-bold">Together!</span>
+  <section id="home">
+    <p className="text-lg font-medium mb-4">
+      Let&apos;s Work <span className="text-primary-orange font-bold">Together!</span>
+    </p>
+
+    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+      Hi From <span className="text-primary-orange">Chaiyasit,</span>
+      <br />
+      Interactive Designer & Fullstack Web Developer
+    </h1>
+
+    <p className="text-gray-400 text-base md:text-lg mb-10 max-w-2xl">
+      I am a passionate and dedicated full-stack developer with over 3 years of experience crafting beautiful and functional digital experiences. I focus on building responsive, accessible, and high-performance web applications, specializing in the modern React ecosystem.
+    </p>
+
+    <div className="flex space-x-12 md:space-x-16">
+      <div>
+        <p className="text-5xl md:text-6xl font-extrabold text-primary-orange">3+</p>
+        <p className="text-sm md:text-base text-gray-400 mt-1">
+          Years of Experience
         </p>
-
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-            Hi From <span className="text-primary-orange">Chaiyasit,</span>
-            <br />
-            Interactive Designer & Fullstack Web Developer
-        </h1>
-
-        <p className="text-gray-400 text-base md:text-lg mb-10 max-w-2xl">
-            I am a passionate and dedicated full-stack developer with over 3 years of experience crafting beautiful and functional digital experiences. I focus on building responsive, accessible, and high-performance web applications, specializing in the modern React ecosystem.
-        </p>
-
-        <div className="flex space-x-12 md:space-x-16">
-            
-            <div>
-                <p className="text-5xl md:text-6xl font-extrabold text-primary-orange">3+</p>
-                <p className="text-sm md:text-base text-gray-400 mt-1">
-                    Years of Experience
-                </p>
-            </div>
+      </div>
 
             <div>
                 <p className="text-5xl md:text-6xl font-extrabold text-primary-orange">10+</p>
